@@ -15,7 +15,7 @@ MOTAI is a lightweight computer-vision tool designed for biological researchers.
   - A CSV file with image-wise counts
   - A ZIP file containing all results
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 Computer-vision-for-research-image-analysis/  
 │  
@@ -34,6 +34,15 @@ Computer-vision-for-research-image-analysis/
 └── README.md  
 
 Note: Full training datasets are not included to keep the repository lightweight.
+
+## Getting the YOLO Models
+The YOLO models (best_eggs.pt and best_flies.pt) are private to protect intellectual property.  
+To obtain the models, please contact the repository owner via email: chechi.tj@gmail.com  
+
+Once you receive the model files, place them in a folder named models in the root of the repository:
+- Computer-vision-for-research-image-analysis/models/best_eggs.pt
+- Computer-vision-for-research-image-analysis/models/best_flies.pt
+
 
 ## 🖥️ Installation (Local Only)
 - ### Clone the repository  
@@ -57,3 +66,11 @@ Make sure your system has Python 3.10–3.12 for compatibility with OpenCV and Y
 streamlit run app/app.py
 
 The app will open in your default browser
+
+## Future Directions
+- Web-based deployment while keeping models private  
+- Phenotype classification for flies  
+- Automatic model updates with new experimental data
+
+## License
+MIT License (code only; model weights are private)
